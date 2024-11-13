@@ -15,17 +15,23 @@ int main () {
 	printf("\nChoose an operation (+, -, *, /): ");
 	scanf(" %c", &op);
 	
-	if (op == '+') 
-		result = op1 + op2;
-	else if(op == '-')
-		result = op1 - op2;
-	else if (op == '*')
-		result = op1 * op2;	
-	else if (op == '/')
-		result = op1 / op2;
-	else 
-		printf("invalid operation");
-	
+	switch (op) {
+    case '+':
+        result = op1 + op2;
+        break;
+    case '-':
+        result = op1 - op2;
+        break;
+    case '*':
+        result = op1 * op2;
+        break;
+    case '/':
+        result = op1 / op2;
+        break;
+    default:
+        printf("Invalid operator!\n");
+}
+
 	printf("\n%.1f %c %.1f = %.1f",op1,op,op2,result);
 	
 }
