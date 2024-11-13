@@ -1,4 +1,4 @@
-**Coder. Muhammad Saqib (CT-091)**
+**Coder. Muhammad Saqib (CT-091) |**
 **Version Control, Documentation. Fahad Ahmed (CT-082)**
 
 This is a simple calculator, designed in C to perform addition, subtraction, multiplication and division.
