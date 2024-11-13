@@ -19,6 +19,10 @@ int main () {
 		result = op1 + op2;
 	else if(op == '-')
 		result = op1 - op2;
+	else if (op == '*')
+		result = op1 * op2;	
+	else if (op == '/')
+		result = op1 / op2;
 	else 
 		printf("invalid operation");
 	
