@@ -1,5 +1,4 @@
-CT-082.Fahad Ahmed
-CT-091.Muhammad Saqib
+**Coder. Muhammad Saqib (CT-091) | Version Control, Documentation. Fahad Ahmed (CT-082)**
 
 This is a simple calculator, designed in C to perform addition, subtraction, multiplication and division.
 "master" branch contains the "if statement" version of the code,
